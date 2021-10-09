@@ -1,0 +1,416 @@
+@media (max-width: 1024px) {
+    header{
+        width: 1014px;
+    }
+    .nav__items img {
+        width: 160px;
+        height: 36px;
+        margin-left: 150px;
+    }
+    .nav__links {
+        margin-left: 70px;
+    }
+    .hero {
+        padding-left: 495px;
+        padding-top: 260px;
+    }
+    .hero h1 {
+        font-size: 38px;
+        margin-bottom: 52px;
+    }
+    .hero p {
+        font-size: 18px;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+    .hero a {
+        font-size: 18px;
+        padding: 8px 30px;
+    }
+    .information__title h1 {
+        font-weight: 700;
+        font-size: 32px;
+    }
+    .information__title p {
+        font-size: 10px;
+    }
+    .linu {
+        width: 540px;
+    }
+    .ovou__card__desk h1 {
+        margin-left: 85px;
+    }
+    .video img {
+        width: 940px;
+        height: 500px;
+    }
+    .information__img{
+        width: 480px;
+        height: 310px;
+    }
+    .comments__img1 img {
+        width: 240px;
+        height: 259px;
+        margin-bottom: 10px;
+    }
+    .comments__img1 p {
+        font-size: 9px;
+    }
+    .ovou__card__desk p {
+        width: 570px;
+    }
+
+}
+@media (max-width: 992px) {
+    header{
+        width: 992px;
+    }
+
+    .hero {
+        padding-left: 495px;
+        padding-top: 255px;
+    }
+    .nav__items img {
+        margin-left: 120px;
+    }
+    .comments__img1 img {
+        width: 240px;
+        height: 230px;
+    }
+    .information__img {
+        width: 480px;
+        height: 310px;
+    }
+    .information__title h1 {
+        font-size: 27px;
+    }
+    .ovou__card__desk p {
+        width: 550px;
+    }
+
+}
+@media (max-width: 768px) {
+    header{
+        width: 768px;
+    }
+    .nav__links{
+        display: none;
+    }
+    .nav__items img {
+        margin-left: 300px;
+    }
+    .burger{
+        display: flex;
+    }
+    .nav__links.show {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        flex-direction: column;
+        background: #001931;
+        right: 538px;
+        top: 0;
+        width: 30%;
+        height: 50%;
+        z-index: 4;
+        align-items: center;
+    }
+
+    .show-menu{
+        transform: rotate(360deg);
+        background: transparent;
+        color: #FFFFFF;
+        position: fixed;
+        right: 17px;
+        top: 32px;
+    }
+    .show-menu span{
+        transform: rotate(45deg);
+        left: -1px;
+
+    }
+    .show-menu span:before{
+        transform: rotate(90deg);
+        top: -1px;
+    }
+
+
+
+
+
+
+    .hero {
+        padding-left: 392px;
+        padding-top: 395px;
+    }
+
+    .hero h1 {
+        font-size: 29px;
+        margin-bottom: 30px;
+        margin-top: -144px;
+    }
+    .hero p {
+        font-size: 17px;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+    .hero a {
+        font-size: 15px;
+        padding: 6px 12px;
+    }
+    .information__img  {
+        width: 360px;
+        height: 255px;
+    }
+    .ovou__card__img {
+        width: 250px;
+        height: 250px;
+    }
+    .ovou__card__desk h1 {
+        margin-left: 120px;
+        font-size: 27px;
+    }
+    .ovou__card__desk p {
+        width: 360px;
+        font-size: 12px;
+    }
+    .video img {
+        width: 700px;
+        height: 400px;
+    }
+    .linu {
+        width: 400px;
+    }
+    .buy__card {
+        padding: 8px 40px;
+    }
+    .comments__img1 img {
+        width: 180px;
+        height: 200px;
+        margin-bottom: 4px;
+    }
+    .comments__img1 a {
+        margin-bottom: 14px;
+        color: #313131;
+        font-size: 11px;
+    }
+    .comments__img1 p {
+        font-size: 7px;
+    }
+    .ovou__card__footer h2 {
+        margin-bottom: 30px;
+    }
+    .ovou__card__footer h3 {
+        font-size: 14px;
+    }
+    .company h2 {
+        font-size: 16px;
+    }
+    .company h3 {
+        font-size: 14px;
+    }
+    .help__and h2 {
+        font-size: 16px;
+    }
+    .help__and h3{
+        font-size: 14px;
+    }
+    .social__media h2 {
+        font-size: 16px;
+    }
+    .social__media h3{
+        font-size: 14px;
+    }
+
+}
+@media (max-width: 576px) {
+    header{
+        width: 576px;
+    }
+    .nav__items img {
+        margin-left: 198px;
+    }
+    .hero {
+        padding-left: 285px;
+        padding-top: 394px;
+    }
+    .hero h1 {
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+    .hero p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .hero a {
+        font-size: 10px;
+        padding: 5px 9px;
+    }
+    .information__img {
+        width: 520px;
+        height: 300px;
+    }
+
+    .information__title h1 {
+        font-size: 38px;
+        margin-top: -42px;
+
+    }
+    .information__title p {
+        font-size: 16px;
+    }
+    .ovou__card__img {
+        width: 280px;
+        height: 280px;
+        margin-left: 126px;
+    }
+    .ovou__card__desk {
+        margin: 40px 80px;
+    }
+    .video img {
+        width: 520px;
+        height: 320px;
+    }
+    .comments__img1 p {
+        font-size: 10px;
+    }
+    .comments__img1 img {
+        width: 280px;
+        height: 240px;
+        margin-bottom: 20px;
+    }
+    .comments__img1 a {
+        margin-bottom: 16px;
+        font-size: 18px;
+    }
+
+
+}
+@media (max-width: 414px) {
+    header{
+        width: 576px;
+    }
+    .nav__items img {
+        margin-left: 126px;
+    }
+    .hero {
+        padding-left: 403px;
+        padding-top: 430px;
+    }
+    .hero {
+        padding-left: 202px;
+        padding-top: 410px;
+    }
+    .hero h1 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .hero p {
+        font-size: 10px;
+        margin-bottom: 10px;
+        width: 150px;
+    }
+    .hero a {
+        font-size: 10px;
+        padding: 4px 4px;
+    }
+    .information__img {
+        width: 390px;
+        height: 260px;
+    }
+    .information__title h1 {
+        font-size: 31px;
+        margin-top: -55px;
+    }
+    .information__title p {
+        font-size: 13px;
+    }
+    .ovou__card__img {
+        margin-left: 58px;
+    }
+    .ovou__card__desk {
+        margin: 41px 20px;
+    }
+    .linu {
+        width: 305px;
+    }
+    .video img {
+        width: 386px;
+        height: 260px;
+    }
+    .comments__img1 p {
+        font-size: 10px;
+    }
+    .comments__img1 img {
+        width: 280px;
+        height: 240px;
+        margin-bottom: 20px;
+    }
+    .comments__img1 a {
+        margin-bottom: 16px;
+        font-size: 18px;
+    }
+
+
+
+}
+@media (max-width: 320px) {
+    .nav__items img {
+        margin-left: 74px;
+    }
+    .hero {
+        padding-left: 154px;
+    }
+    .information__img {
+        width: 293px;
+        height: 185px;
+    }
+    .information__title h1 {
+        font-size: 21px;
+        margin-top: -55px;
+    }
+    .information__title p {
+        font-size: 8px;
+    }
+    .ovou__card__img {
+        margin-left: 8px;
+    }
+    .ovou__card__desk {
+        margin: 41px 9px;
+    }
+    .ovou__card__desk p {
+        width: 277px;
+        font-size: 12px;
+    }
+    .ovou__card__desk img {
+        width: 20px;
+        height: 20px;
+    }
+    .linu {
+        width: 255px;
+    }
+    .buy__card {
+        padding: 4px 32px;
+        font-size: 15px;
+    }
+    .video img {
+        width: 292px;
+        height: 200px;
+    }
+    .comments h1 {
+        font-size: 20px;
+    }
+    .comments__img1 p {
+        font-size: 10px;
+    }
+    .comments__img1 img {
+        width: 280px;
+        height: 240px;
+        margin-bottom: 20px;
+    }
+    .comments__img1 a {
+        margin-bottom: 16px;
+        font-size: 18px;
+    }
+
+}

@@ -1,0 +1,474 @@
+/*!* width *!*/
+/*::-webkit-scrollbar {*/
+/*    width: 20px;*/
+/*}*/
+
+/*!* Track *!*/
+/*::-webkit-scrollbar-track {*/
+/*    box-shadow: inset 0 0 5px grey;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*!* Handle *!*/
+/*::-webkit-scrollbar-thumb {*/
+/*    background: red;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*!* Handle on hover *!*/
+/*::-webkit-scrollbar-thumb:hover {*/
+/*    background: #b30000;*/
+/*}*/
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url("../fonts/Montserrat");
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.97);
+    position: fixed;
+    width: 1350px;
+}
+
+#header__teams {
+    height: 60px;
+}
+
+/*.container {*/
+/*    width: 1170px;*/
+/*    margin: auto;*/
+/*}*/
+
+.header__teams {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+
+
+}
+
+.header__teams img {
+    width: 100px;
+    height: 20px;
+}
+
+.header__teams__menu {
+    display: flex;
+}
+
+.header__teams__menu a {
+    color: #ffffff;
+}
+
+.header__teams__menu a:hover {
+    color: #adadad;
+}
+
+
+.header__teams__desk {
+    margin-left: 15px;
+    font-size: 12px;
+    border: 2px solid #FFFFFF;
+    background: #000000;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 6px 12px;
+}
+
+.header__teams__desk:hover {
+    background: #242424;
+    color: #FFFFFF;
+    transition: 0.7s;
+    border: none;
+}
+
+
+.nav__get1 {
+    color: #FFFFFF;
+    font-size: 12px;
+    background: #ea8b4c;
+    border-radius: 8px;
+    text-transform: uppercase;
+    padding: 6px 12px;
+}
+
+.nav__get1:hover {
+    background: #bd7d40;
+    transition: 0.7s;
+    border: none;
+}
+
+
+#hero__teams {
+    background: url("../img/for-team-hero-shot-2.jpg") no-repeat center/cover;
+    min-height: 100vh;
+
+
+}
+
+.hero__teams {
+    padding-left: 50px;
+    padding-top: 300px;
+}
+
+.hero__teams h1 {
+    font-size: 42px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.hero__teams p {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+span {
+    color: #ff1c00;
+}
+
+.hero__teams a {
+    color: #FFFFFF;
+    font-size: 20px;
+    background: #dc1b01;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 8px 40px;
+}
+
+.hero__teams a:hover {
+    color: #FFFFFF;
+    border: none;
+    background: rgba(127, 3, 3, 0.64);
+
+}
+
+
+/*/////////information////////////////////*/
+#information__teams {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.information__teams {
+    display: flex;
+
+}
+
+.information__teams img {
+    width: 575px;
+    height: 370px;
+}
+
+.information__teams__title {
+    margin: 70px 78px;
+}
+
+.information__teams__title h1 {
+    font-weight: 750;
+    font-size: 40px;
+
+}
+
+.information__teams__title p {
+    font-size: 14px;
+    color: #828282;
+}
+
+/*/////////information////////////////////*/
+
+
+/*/////////slider////////////////////*/
+#slider {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.slider__title {
+    display: flex;
+    justify-content: center;
+}
+
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.slider__img img {
+    width: 335px;
+    height: 350px;
+}
+
+.slider__img a {
+    color: #555;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+
+.slick-prev {
+    position: absolute;
+    display: none;
+    font-size: 0;
+
+}
+
+.slick-next {
+    position: absolute;
+    display: none;
+    font-size: 0;
+
+}
+#ovou__team {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.ovou__team__title {
+    /*display: flex;*/
+    justify-content: center;
+    margin-left: 480px;
+    font-weight: 750;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+.ovou__team__img img {
+    width: 380px;
+    height: 380px;
+}
+
+
+.ovou__team__deck h3 {
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.ovou__team__icon {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.ovou__team__icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.ovou__team__icon h3 {
+    font-size: 20px;
+    list-style: none;
+    position: relative;
+    padding: 7px 0 7px 25px;
+    margin: 0;
+    border-bottom: 1px solid #ececec;
+}
+
+.ovou__team__card {
+    display: flex;
+}
+
+.ovou__team__card h1 {
+    color: #282828;
+    font-weight: 750;
+}
+
+
+.ovou__team__card a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45px;
+    color: #ffffff;
+    font-size: 18px;
+    background: #dc1b01;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 8px 40px;
+}
+
+.ovou__team__deck h4 {
+    margin-left: 120px;
+    margin-top: 25px;
+}
+.slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    font-size: 0;
+    align-items: center;
+    padding-top: 10px;
+}
+.slick-arrow {
+   display: none;
+}
+
+
+.slider.slick-dots li {
+    list-style: none;
+}
+
+.slider .slick-dots button {
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.slider .slick-dots .slick-active button {
+    background: #000000;
+}
+.slick-list {
+    overflow: hidden;
+}
+/*/////////ovou__team////////////////////*/
+
+
+/*/////////questions////////////////////*/
+#questions {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
+/*/////////questions////////////////////*/
+
+
+/*/////////////////////////////////footer//////////////////////*/
+
+#footer__teams {
+    margin-top: 0;
+    margin-bottom: 0;
+    background: black;
+}
+
+.footer__teams {
+    color: #FFFFFF;
+    padding-top: 25px;
+
+}
+
+.footer__teams__ovou h2 {
+    font-weight: 750;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.footer__teams__ovou h3 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer__teams__company h2 {
+    font-weight: 750;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.footer__teams__company h3 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer__teams__help__and h2 {
+    font-weight: 750;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.footer__teams__help__and h3 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer__teams__social__media h2 {
+    font-weight: 750;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.footer__teams__social__media h3 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+/*/////////////////////////////////footer//////////////////////*/
+
+

@@ -1,0 +1,482 @@
+/*!* width *!*/
+/*::-webkit-scrollbar {*/
+/*    width: 20px;*/
+/*}*/
+
+/*!* Track *!*/
+/*::-webkit-scrollbar-track {*/
+/*    box-shadow: inset 0 0 5px grey;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*!* Handle *!*/
+/*::-webkit-scrollbar-thumb {*/
+/*    background: red;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*!* Handle on hover *!*/
+/*::-webkit-scrollbar-thumb:hover {*/
+/*    background: #b30000;*/
+/*}*/
+* {
+    padding: 0;
+    margin: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url("../fonts/Montserrat");
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    background: rgba(0, 0, 0, 0.97);
+    position: fixed;
+    width: 1350px;
+}
+#header{
+    height: 60px;
+}
+/*.container{*/
+/*    width: 1170px;*/
+/*    margin: auto;*/
+/*}*/
+.nav__items{
+    display: flex;
+    padding-top: 15px;
+
+
+}
+.nav__items img{
+    width: 100px;
+    height: 20px;
+}
+.nav__links{
+    display: flex;
+    margin-left: 450px;
+}
+.nav__links a{
+    color: #ffffff;
+}
+.nav__links a:hover{
+    color: #adadad;
+}
+
+.nav__item{
+    margin-left: 15px;
+}
+.nav__login {
+    font-size: 12px;
+    border: 2px solid #FFFFFF;
+    background: #000000;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 6px 12px;
+}
+.nav__login:hover {
+    background: #242424;
+    color: #FFFFFF;
+    transition: 0.7s;
+    border: none;
+}
+
+
+.nav__get {
+    color: #FFFFFF;
+    font-size: 12px;
+    background: #ea8b4c;
+    border-radius: 8px;
+    text-transform: uppercase;
+    padding: 6px 12px;
+}
+.nav__get:hover {
+    background: #bd7d40;
+    transition: 0.7s;
+    border: none;
+}
+
+
+.burger {
+    display: none;
+    width: 50px;
+    height: 4px;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin-left: -470px;
+    margin-top: 10px;
+}
+
+.burger span {
+    width: 15%;
+    height: 4px;
+    background: #ffffff;
+    display: flex;
+    position: relative;
+    margin-top: -249px;
+    margin-left: -867px;
+}
+
+.burger span:before {
+    content: "";
+    position: absolute;
+    background: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: -15px;
+
+}
+
+.show-menu {
+    position: absolute;
+    background: #ff0000;
+    z-index: 4;
+    color: #FFFFFF;
+    top: 30px;
+    transition: 1s;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#hero{
+    background: url("../img/hero2-scaled.jpg")no-repeat center/cover;
+    min-height: 100vh;
+
+}
+
+.hero  {
+    padding-left: 575px;
+    padding-top: 337px;
+}
+.hero h1{
+    font-size: 42px;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+.hero p{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+span{
+    color: #ff1c00;
+}
+.hero a{
+    color: #FFFFFF;
+    font-size: 20px;
+    background: #dc1b01;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 8px 40px;
+}
+
+.hero a:hover {
+    color: #FFFFFF;
+    border: none;
+    background: rgba(127, 3, 3, 0.64);
+}
+/*/////////information////////////////////*/
+#information{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/*.information{*/
+/*    text-align: center;*/
+/*}*/
+.information__img{
+    display: flex;
+    justify-content: center;
+    width: 570px;
+    height: 330px;
+}
+.information__img:before{
+    content: "";
+    box-sizing: border-box;
+}
+.information__img::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.information__title{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.information__title h1{
+    font-weight: 750;
+    font-size: 40px;
+
+}
+.information__title p{
+    font-size: 14px;
+}
+/*/////////information////////////////////*/
+#ovou__card{
+    padding-top: 0;
+    padding-bottom: 110px;
+}
+.ovou__card__img  {
+    width: 380px;
+    height: 380px;
+
+}
+.ovou__card__desk{
+    margin: 40px 120px;
+    margin-bottom: 120px;
+}
+.ovou__card__desk h1{
+    font-weight: 650;
+    display: flex;
+    justify-content: center;
+}
+.ovou__card__desk p{
+    width: 650px;
+}
+.ovou__card__desk img{
+    width: 30px;
+    height: 30px;
+}
+.ovou__icon{
+    display: flex;
+    margin-bottom: 20px;
+}
+.linu{
+    width: 720px;
+    border:0.5px solid rgba(146, 145, 145, 0.8);
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.buy__card{
+    color: #FFFFFF;
+    font-size: 20px;
+    background: #dc1b01;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 12px 80px;
+}
+
+.buy__card:hover {
+    color: #FFFFFF;
+    border: none;
+    background: rgba(127, 3, 3, 0.64);
+
+}
+
+
+/*//////////////////////////////////rov///////////////////////*/
+.ovou__icons{
+    text-align: center;
+}
+.ovou__icons__title img{
+
+    width: 100px;
+    height: 100px;
+}
+.ovou__icons__title h1{
+    font-size: 22px;
+    font-weight: 750;
+}
+.ovou__icons__title p{
+    font-size: 15px;
+}
+
+/*//////////////////////////////////rov///////////////////////*/
+
+
+/*//////////////////////////video////////////////////////*/
+#video{
+    padding-top: 0;
+    padding-bottom: 200px;
+}
+.video img{
+    width: 1100px;
+    height: 600px;
+}
+.video__text h1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+
+
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/*//////////////////////////video////////////////////////*/
+
+
+
+
+/*//////////////////////////comments////////////////////////*/
+#comments{
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+.comments h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.comments__title{
+    text-align: center;
+}
+.comments__img1{
+    text-align: center;
+}
+.comments__img1 img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.comments__img1 a{
+
+    margin-bottom: 15px;
+    color: #313131;
+}
+.comments__img1 p{
+    font-size: 12px;
+    color: #8b8989;
+}
+
+
+
+
+
+
+
+
+
+/*//////////////////////////comments////////////////////////*/
+
+
+/*/////////////////////////////////footer//////////////////////*/
+
+#footer{
+    margin-top: 0;
+    margin-bottom: 0;
+    background: black;
+}
+.footer{
+    display: flex;
+    color: #FFFFFF;
+    padding-top: 25px;
+
+}
+.ovou__card__footer h2 {
+    font-weight: 750;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.ovou__card__footer h3 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.company h2 {
+    font-weight: 750;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.company h3 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.help__and h2 {
+    font-weight: 750;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.help__and h3 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.social__media h2 {
+    font-weight: 750;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.social__media h3 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////////footer//////////////////////*/
